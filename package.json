@@ -1,7 +1,7 @@
 {
-  "name": "numjs",
-  "version": "0.16.0",
-  "description": "Like NumPy, in JavaScript",
+  "name": "numjs-noimage",
+  "version": "0.16.0-noimage",
+  "description": "Fork of NumJS without image functions.",
   "main": "src/index.js",
   "directories": {
     "test": "test"
@@ -14,7 +14,6 @@
     "ndarray-fft": "^1.0.0",
     "ndarray-gemm": "^1.0.0",
     "ndarray-ops": "^1.2.2",
-    "sharp": "^0.25.2",
     "typedarray-pool": "^1.1.0"
   },
   "devDependencies": {
@@ -68,9 +67,7 @@
     "multidimensional",
     "dimension",
     "higher",
-    "image",
     "volume",
-    "webgl",
     "tensor",
     "matrix",
     "linear",
@@ -82,7 +79,7 @@
     "shape",
     "numpy"
   ],
-  "author": "Nicolas Panel",
+  "author": "Nicolas Panel (forked by okyanusoz to remove image functionality)",
   "license": "MIT",
   "readmeFilename": "README.md",
   "browser": {
