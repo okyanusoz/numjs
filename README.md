@@ -1,6 +1,6 @@
 # NumJS without image functions
 
-This is a fork of NumJS without image functions. This version does not include sharp.
+This is a fork of NumJS without image functions. This version is lighter and does not include sharp.
 
 This version is mostly for use in my own projects to speed up installation.
 
