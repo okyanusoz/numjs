@@ -12,3 +12,11 @@ Installation is as simple as:
 Docs are the same as https://github.com/nicolaspanel/numjs, but without the `nj.images` module. 
 
 *NOTE*: **You will also need to change `require("numjs")` code to `require("numjs-noimage")`.**
+
+## TypeScript
+
+For TypeScript, you need to add the `skipLibCheck: true` to your tsconfig.json file or you need to run the compiler with `--skipLibCheck`.
+
+I may add types in the future.
+
+See https://stackoverflow.com/questions/52311779/usage-of-the-typescript-compiler-argument-skiplibcheck
